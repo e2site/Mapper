@@ -34,7 +34,7 @@ class ConstantMap implements \mapper\interfaces\iMapValue {
                 $this->consList[$name] = $value;
             }
         } else {
-            throw new \mapper\exceptions\MapException('В ConstantMap передан '.gettype($data).', нужно передать Массив, либо Объект');
+            throw new \mapper\exceptions\MapException('В ConstantMap передан '.gettype($structure).', нужно передать Массив, либо Объект');
         }
     }
 
