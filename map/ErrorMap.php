@@ -25,7 +25,7 @@ class ErrorMap implements \mapper\interfaces\iMapValue {
     }
 
     public function getMapValue($data=null) {
-        return $value;
+        return $this->value;
     }
 }
 ?>
